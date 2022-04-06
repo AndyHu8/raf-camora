@@ -12,13 +12,13 @@ export default function CreditsBalken() {
 
 const classes = {
     balken: {
-        height: 50,
+        height: 45,
         width: "100%",
         backgroundColor: "#FCFF1E",
-        fontSize: 20,
+        fontSize: 17,
         fontFamily: "ontserrat, sans-serif",
         textAlign: "center",
-        lineHeight: "50px",
-        cursor: "pointer"
+        lineHeight: "45px",
+        cursor: "pointer",
     }
 }
