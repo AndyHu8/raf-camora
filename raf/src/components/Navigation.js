@@ -34,8 +34,8 @@ export default function Navigation() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          left: 10,
-          right: 10,
+          left: 20,
+          right: 20,
           position: "fixed",
           borderBottom: "1px solid black",
           lineHeight: "10%"
