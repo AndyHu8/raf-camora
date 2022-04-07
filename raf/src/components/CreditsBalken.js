@@ -1,4 +1,5 @@
 export default function CreditsBalken() {
+  
   const  OpenHulongWebsite = () => {
     window.open("https://hulongofficial.de/", "_blank")
   }
@@ -11,7 +12,7 @@ export default function CreditsBalken() {
 }
 
 const classes = {
-    balken: {
+  balken: {
         height: 45,
         width: "100%",
         backgroundColor: "#FCFF1E",
@@ -20,5 +21,6 @@ const classes = {
         textAlign: "center",
         lineHeight: "45px",
         cursor: "pointer",
-    }
+        marginTop: 80
+  }
 }

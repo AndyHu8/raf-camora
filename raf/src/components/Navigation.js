@@ -29,16 +29,20 @@ export default function Navigation() {
   
   const classes = {
       container: {
-          height: "8%",
+          height: 80,
           backgroundColor: "white",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          left: 20,
-          right: 20,
+          paddingLeft: 15,
+          paddingRight: 15,
+          top: 0,
+          left: 0,
+          right: 0,
           position: "fixed",
-          borderBottom: "1px solid black",
-          lineHeight: "10%"
+          lineHeight: "10%",
+          zIndex: 101,
+          borderBottom: "1px solid black"
       },
       menu: {
         fontSize: 23,
