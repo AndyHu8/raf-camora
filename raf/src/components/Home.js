@@ -4,10 +4,13 @@ export default function Home() {
   
     return (
       <div style={classes.home}>
-          <div>
-            <div style={classes.headline}>RAF Camora \r\n Raphael Ragucci</div>
-            <br/>
-            <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+          <div style={classes.wrapper}>
+            <div style={classes.headline}>
+              <div style={classes.headlinePara}>RAF Camora - Raphael Ragucci</div>
+              <hr/>
+            <div style={classes.infotext}><p>Seit damals wollt' ich meine erste Million'n bis zum nächsten Millennium sparen. (aber)
+                  Doch Fahrräder knacken und Gras ticken reichte nicht mal für die Pennymarkt-Marken.</p>- RAF Camora - Alles probiert</div>
+          </div>
           </div>
       </div>
     );
@@ -20,10 +23,26 @@ export default function Home() {
           background: `url(${raf_home})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cortain",
-          backgroundPosition: "center"
+          backgroundPosition: "center",
+    },
+    wrapper: {
+      width: "40%",
+      fontSize: 30,
+      top: "120%",
+      left: "30%",
+      transform: "translate(30%,120%)",
     },
     headline: {
-        fontFamily: "'Anton', sans-serif"
+        fontFamily: "'Anton', sans-serif",
+    },
+    headlinePara: {
+        margin: 0,
+        fontSize: 50
+    },
+    infotext: {
+      fontFamily: "ontserrat, sans-serif",
+      fontSize: 25,
+      color: "#474747"
     }
   }
   
