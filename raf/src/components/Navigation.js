@@ -1,10 +1,19 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import LanguageIcon from '@mui/icons-material/Language';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { useState } from 'react';
 
 export default function Navigation() {
+  let [navbarState, setNavbarState] = useState(false);
 
   const OpenSidebar = () => {
+    if(navbarState === false){
+      setNavbarState(true)
+      console.log(navbarState);
+    }
+    else {
+      setNavbarState(true)
+    }
   }
 
   const OpenWiki = () => {
@@ -16,6 +25,7 @@ export default function Navigation() {
   }
     
     return (
+      <>
       <div style={classes.container}>
         <div style={classes.menu} onClick={OpenSidebar}><MenuIcon sx={{ fontSize: 35 }}/>MENÜ</div>
         <div style={classes.raf}>RAF CAMORA</div>
@@ -24,6 +34,7 @@ export default function Navigation() {
           <div onClick={OpenCorbo}><ShoppingCartIcon sx={{ fontSize: 35 }}/></div>
         </div>
       </div>
+      </>
     );
   }
   
