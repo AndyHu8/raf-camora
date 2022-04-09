@@ -1,6 +1,6 @@
-import MenuIcon from '@mui/icons-material/Menu';
 import LanguageIcon from '@mui/icons-material/Language';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Sidebar from './Sidebar';
 import { useState } from 'react';
 
 export default function Navigation() {
@@ -27,7 +27,7 @@ export default function Navigation() {
     return (
       <>
       <div style={classes.container}>
-        <div style={classes.menu} onClick={OpenSidebar}><MenuIcon sx={{ fontSize: 35 }}/>MENÜ</div>
+        <Sidebar/>
         <div style={classes.raf}>RAF CAMORA</div>
         <div style={classes.IconsRight}>
           <div onClick={OpenWiki}><LanguageIcon sx={{ fontSize: 35 }}/></div>
@@ -55,16 +55,10 @@ export default function Navigation() {
           zIndex: 101,
           borderBottom: "1px solid black"
       },
-      menu: {
-        fontSize: 23,
-        display: "flex",
-        alignItems: "center",
-        cursor: "pointer",
-        fontFamily: "'Montserrat', sans-serif"
-      },
       raf: {
         fontSize: 50,
-        fontFamily: "'Zen Antique Soft', serif",  
+        fontFamily: "'Zen Antique Soft', serif",
+        zIndex: 999
       },
       IconsRight: {
         display: "flex",
