@@ -58,7 +58,6 @@ export default function Navigation() {
       raf: {
         fontSize: 50,
         fontFamily: "'Zen Antique Soft', serif",
-        zIndex: 999
       },
       IconsRight: {
         display: "flex",

@@ -15,10 +15,9 @@ export default function Sidebar() {
           <div style={classes.sidebar}>
             <button style={classes.buttonClose} onClick={() => setIsOpen(!isOpen)}><CloseIcon sx={{ fontSize: 35 }}/></button>
               <p style={classes.para}>HOME</p>
-              <p style={classes.para}>VERSANDKOSTEN</p>
-              <p style={classes.para}>SERVICE &amp; SUPPORT</p>
-              <p style={classes.para}>RETOUREN</p>
-              <p style={classes.para}>ANMELDEN</p>
+              <p style={classes.para}>SUPPORT</p>
+              <p style={classes.para}>QUICK LINKS</p>
+              <p style={classes.para}>SOCIAL</p>
             </div>
           </>)
       }
