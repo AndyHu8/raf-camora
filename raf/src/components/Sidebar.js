@@ -33,7 +33,7 @@ export default function Sidebar() {
           left: "-250px",
           width: "250px",
           height: "100%",
-          padding: "10px 30px",
+          padding: "10px 20px",
           backgroundColor: "black",
           overflowY: "auto",
           //transition: "transform 2s",
