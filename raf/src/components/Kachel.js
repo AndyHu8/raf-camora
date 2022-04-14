@@ -1,24 +1,27 @@
 export default function Kachel(props) {
-  
-    return (
-      <div style={classes.kachel}>
-        <p style={classes.headline}>{props.headline}</p>
-        <p style={classes.year}>Erschienen: {props.year}</p>
-        <button style={classes.button} onClick={() => {window.open(`${props.albumLink}", "_blank`)}}>Spotify öffnen</button>
-      </div>
-    );
-  }
-  
   const classes = {
-    kachel: {
+    container: {
           height: "100%",
           minWidth: "400px",
           fontFamily: "ontserrat, sans-serif",
           textAlign: "center",
-          paddingBottom: 20,
           borderRadius: "10px",
-          border: "2px solid gray",
+          backgroundColor: "#f2f2f2",
+          display: "flex",
+          justifyContent: "space-around",
           flex: 1,
+    },
+    img: {
+      width: "300px",
+      backgroundColor: "red",
+      background: `url(${props.img})`,
+      backgroundSize: "100%",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+    },
+    desc: {
+      width: "50%",
+      paddingBottom: 20
     },
     headline: {
         fontSize: 30,
@@ -41,5 +44,17 @@ export default function Kachel(props) {
         color: "white",
         fontWeight: "bold"
     }
+  }
+  
+    return (
+      <div style={classes.container}>
+        <div style={classes.img}></div>
+        <div style={classes.desc}>
+          <p style={classes.headline}>{props.headline}</p>
+          <p style={classes.year}>Erschienen: {props.year}</p>
+          <button style={classes.button} onClick={() => {window.open(`${props.albumLink}", "_blank`)}}>Spotify öffnen</button>
+        </div>
+      </div>
+    );
   }
   
