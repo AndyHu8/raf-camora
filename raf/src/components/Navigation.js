@@ -4,17 +4,6 @@ import Sidebar from './Sidebar';
 import { useState } from 'react';
 
 export default function Navigation() {
-  let [navbarState, setNavbarState] = useState(false);
-
-  const OpenSidebar = () => {
-    if(navbarState === false){
-      setNavbarState(true)
-      console.log(navbarState);
-    }
-    else {
-      setNavbarState(true)
-    }
-  }
 
   const OpenWiki = () => {
     window.open("https://de.wikipedia.org/wiki/RAF_Camora", "_blank")
@@ -28,7 +17,7 @@ export default function Navigation() {
       <>
       <div style={classes.container}>
         <Sidebar/>
-        <div style={classes.raf}>RAF CAMORA</div>
+        <div style={classes.raf}>RAF CAMORA RR</div>
         <div style={classes.IconsRight}>
           <div onClick={OpenWiki}><LanguageIcon sx={{ fontSize: 35 }}/></div>
           <div onClick={OpenCorbo}><ShoppingCartIcon sx={{ fontSize: 35 }}/></div>
