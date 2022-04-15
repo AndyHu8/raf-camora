@@ -21,7 +21,7 @@ export default function KachelFlexbox() {
   
     return (
       <div style={classes.container}>
-          <Kachel headline="Zukunft 1 + 2" year="2021" img={zukunft2} albumLink="https://open.spotify.com/album/2cRu6Q7AwQbk0Muivz92Qp?si=9NdyoBABRWiv2l8-oqa_JA"/>
+          <Kachel img={zukunft2} albumLink="https://open.spotify.com/album/2cRu6Q7AwQbk0Muivz92Qp?si=9NdyoBABRWiv2l8-oqa_JA"/>
           <Kachel headline="Zukunft" year="2021" img={zukunft} albumLink="https://open.spotify.com/album/0qLHtTHjyNgq9WSymtINK6?si=MDp_i98fT2Oo_G7xEZWIFw"/>
           <Kachel headline="ZENIT RR" year="2020" img={zenitrr} albumLink="https://open.spotify.com/album/2XdEwWWUpWnWhcnaXAPrDf?si=1eUDjEUqSo21ev3mTUfwAg"/>
           <Kachel headline="ZENIT" year="2019" img={zenit} albumLink="https://open.spotify.com/album/3Fk5IcqWhA5DknM1ePJ2YC?si=TS820moSQfi6b5LBZuHYjA"/>

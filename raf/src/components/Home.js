@@ -22,8 +22,8 @@ export default function Home() {
           width: "100%",
           background: `url(${raf_home})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cortain",
           backgroundPosition: "center",
+          backgroundSize: "cover"
     },
     wrapper: {
       width: "40%",
