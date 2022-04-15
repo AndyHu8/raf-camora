@@ -19,9 +19,7 @@ export default function Kachel(props) {
       backgroundPosition: "center",
       cursor: "pointer",
       borderRadius: 10,
-      "&:hover": {
-        margin: 10
-      },
+      "&:hover": {},
     },
   }
   
