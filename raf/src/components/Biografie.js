@@ -5,7 +5,7 @@ export default function Biografie() {
     return (
         <>
       <div style={classes.container}>
-          <div style={classes.imgContainer}><div style={classes.img}></div></div>
+          <div style={classes.imgContainer}><div style={classes.img}/></div>
           <div style={classes.sideText}>
               <p style={classes.headline}>RAF CAMORA - BIOGRAFIE</p>
               Erwachsen, reflektiert und schonungslos ehrlich berichtet Raphael „RAF Camora“ Ragucci in seiner selbst geschriebenen Autobiografie, „Der Pakt“, von der unglaublichen bisherigen Reise seiner Karriere, die ihn aus einfachen Verhältnissen von West-Wien über Berlin nach Barcelona bis hin ins Ferne Tokio bringt.
