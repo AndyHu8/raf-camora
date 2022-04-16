@@ -49,7 +49,9 @@ export default function KachelFlexbox() {
   const classes = {
     container: {
           height: "100%",
-          padding: 30,
+          paddingBottom: 100,
+          paddingLeft: 100,
+          paddingRight: 100,
           backgroundColor: "white",
           display: "flex",
           flexWrap: "wrap",
