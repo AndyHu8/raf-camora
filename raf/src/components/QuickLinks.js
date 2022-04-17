@@ -29,7 +29,8 @@ export default function QuickLinks() {
   const classes = {
     containerOuter: {
         padding: 25,
-        backgroundColor: "black"
+        backgroundColor: "black",
+        overflowX: "hidden"
     },
     container: {
           height: "250px",

@@ -23,7 +23,8 @@ export default function Home() {
           background: `url(${raf_home})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          backgroundSize: "cover"
+          backgroundSize: "cover",
+          overflowX: "hidden"
     },
     wrapper: {
       textTransform: "uppercase",

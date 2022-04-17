@@ -7,6 +7,7 @@ import Navigation from './components/Navigation';
 import Biografie from './components/Biografie';
 import QuickLinks from './components/QuickLinks';
 import "./index.css"
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Biografie/>
     <KachelFlexbox/>
     <QuickLinks/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

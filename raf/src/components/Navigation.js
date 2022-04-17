@@ -41,7 +41,6 @@ export default function Navigation() {
           position: "fixed",
           lineHeight: "10%",
           zIndex: 101,
-          borderBottom: "1px solid black"
       },
       raf: {
         fontSize: 50,

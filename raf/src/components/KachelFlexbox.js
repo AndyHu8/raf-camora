@@ -58,7 +58,8 @@ export default function KachelFlexbox() {
           rowGap: 30,
           columnGap: 30,
           alignItems: "center",
-          justifyContent: "space-between"
+          justifyContent: "space-between",
+          overflowX: "hidden"
     }
   }
   
