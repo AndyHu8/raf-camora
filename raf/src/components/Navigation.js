@@ -45,7 +45,7 @@ export default function Navigation() {
       },
       raf: {
         fontSize: 50,
-        fontFamily: "'Zen Antique Soft', serif",
+        fontFamily: "'Merriweather', serif",
       },
       IconsRight: {
         display: "flex",

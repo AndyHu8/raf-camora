@@ -17,7 +17,7 @@ const classes = {
         width: "100%",
         backgroundColor: "#FCFF1E",
         fontSize: 17,
-        fontFamily: "ontserrat, sans-serif",
+        fontFamily: "'Montserrat', sans-serif",
         textAlign: "center",
         lineHeight: "45px",
         cursor: "pointer",

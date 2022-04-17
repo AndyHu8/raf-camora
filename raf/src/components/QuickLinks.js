@@ -37,7 +37,7 @@ export default function QuickLinks() {
           width: "100%",
           backgroundColor: "black",
           fontSize: 25,
-          fontFamily: "ontserrat, sans-serif",
+          fontFamily: "'Montserrat', sans-serif",
           lineHeight: "35px",
           color: "white",
           justifyContent: "space-between",

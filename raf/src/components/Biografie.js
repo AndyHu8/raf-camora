@@ -19,6 +19,7 @@ export default function Biografie() {
   
   const classes = {
     container: {
+        textTransform: "uppercase",
         height: "100%",
           width: "100%",
           display: "flex",
@@ -45,8 +46,8 @@ export default function Biografie() {
         paddingLeft: 100,
         paddingRight: 250,
         width: "50%",
-        fontSize: 30,
-        fontFamily: "ontserrat, sans-serif",
+        fontSize: 25,
+        fontFamily: "'Montserrat', sans-serif",
         textAlign: "center",
         color: "#A0AEC0"
     },
@@ -69,7 +70,7 @@ export default function Biografie() {
         paddingBottom: 200,
         width: "70%",
         fontSize: 30,
-        fontFamily: "ontserrat, sans-serif",
+        fontFamily: "'Montserrat', sans-serif",
         textAlign: "center",
     }
   }

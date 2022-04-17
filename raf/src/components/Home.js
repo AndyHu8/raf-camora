@@ -26,21 +26,22 @@ export default function Home() {
           backgroundSize: "cover"
     },
     wrapper: {
-      width: "40%",
+      textTransform: "uppercase",
+      width: "50%",
       fontSize: 30,
       top: "120%",
       left: "30%",
       transform: "translate(30%,120%)",
     },
     headline: {
-        fontFamily: "'Anton', sans-serif",
+        fontFamily: "'Montserrat', sans-serif",
     },
     headlinePara: {
         margin: 0,
         fontSize: 50
     },
     infotext: {
-      fontFamily: "ontserrat, sans-serif",
+      fontFamily: "'Montserrat', sans-serif",
       fontSize: 25,
       color: "#474747"
     }
