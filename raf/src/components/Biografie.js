@@ -4,7 +4,7 @@ export default function Biografie() {
   
     return (
         <>
-      <div style={classes.container}>
+      <div style={classes.container} id="biografie">
           <div style={classes.imgContainer}><div style={classes.img}/></div>
           <div style={classes.sideText}>
               <p style={classes.headline}>RAF CAMORA - BIOGRAFIE</p>

@@ -3,7 +3,7 @@ import raf_home from "./bilderCode/raf_home.png"
 export default function Home() {
   
     return (
-      <div style={classes.home}>
+      <div style={classes.home} id="home">
           <div style={classes.wrapper}>
             <div style={classes.headline}>
               <div style={classes.headlinePara}>RAF Camora - Raphael Ragucci</div>

@@ -1,12 +1,15 @@
 import { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { HashLink } from "react-router-hash-link";
+import { BrowserRouter } from "react-router-dom";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
   
     return (
       <>
+      <BrowserRouter>
       {!isOpen ?
           (<button style={classes.buttonOpen} onClick={() => setIsOpen(!isOpen)}><MenuIcon sx={{ fontSize: 35 }}/>MENÜ</button>) :
           (
@@ -14,13 +17,15 @@ export default function Sidebar() {
           <button style={classes.buttonOpen} onClick={() => setIsOpen(!isOpen)}><MenuIcon sx={{ fontSize: 35 }}/>MENÜ</button>
           <div style={classes.sidebar}>
             <button style={classes.buttonClose} onClick={() => setIsOpen(!isOpen)}><CloseIcon sx={{ fontSize: 35 }}/></button>
-              <p style={classes.para}>HOME</p>
-              <p style={classes.para}>ALBEN</p>
-              <p style={classes.para}>QUICK LINKS</p>
-              <p style={classes.para}>SOCIAL</p>
+              <p style={classes.para}><HashLink style={classes.anchorTag} to="#home" smooth>HOME</HashLink></p>
+              <p style={classes.para}><HashLink style={classes.anchorTag} to="#biografie" smooth>BIOGRAFIE</HashLink></p>
+              <p style={classes.para}><HashLink style={classes.anchorTag} to="#alben" smooth>ALBEN</HashLink></p>
+              <p style={classes.para}><HashLink style={classes.anchorTag} to="#quickLinks" smooth>QUICK LINKS</HashLink></p>
+              <p style={classes.para}><HashLink style={classes.anchorTag} to="#quickLinks" smooth>SOCIAL</HashLink></p>
             </div>
           </>)
       }
+      </BrowserRouter>
       </>
     );
   }
@@ -64,6 +69,10 @@ export default function Sidebar() {
     para: {
       fontSize: 22,
       marginTop: 45,
+    },
+    anchorTag: {
+      color: "white",
+      textDecoration: "none"
     }
     
   }

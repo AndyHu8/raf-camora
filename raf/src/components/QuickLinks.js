@@ -4,7 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 export default function QuickLinks() {
   
     return (
-      <div style={classes.containerOuter}>
+      <div style={classes.containerOuter} id="quickLinks">
         <div style={classes.container}>
         <div>
             <p style={classes.UlHeadline}>QUICK LINKS</p>

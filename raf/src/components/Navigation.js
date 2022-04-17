@@ -1,7 +1,6 @@
 import LanguageIcon from '@mui/icons-material/Language';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Sidebar from './Sidebar';
-import { useState } from 'react';
 
 export default function Navigation() {
 
