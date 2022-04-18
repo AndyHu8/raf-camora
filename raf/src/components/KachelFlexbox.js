@@ -49,14 +49,14 @@ export default function KachelFlexbox() {
   const classes = {
     container: {
           height: "100%",
-          paddingBottom: 100,
-          paddingLeft: 100,
-          paddingRight: 100,
+          paddingBottom: 20,
+          paddingLeft: 20,
+          paddingRight: 20,
           backgroundColor: "white",
           display: "flex",
           flexWrap: "wrap",
-          rowGap: 30,
-          columnGap: 30,
+          rowGap: 20,
+          columnGap: 20,
           alignItems: "center",
           justifyContent: "space-between",
           overflowX: "hidden"

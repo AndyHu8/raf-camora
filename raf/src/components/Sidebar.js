@@ -54,7 +54,8 @@ export default function Sidebar() {
       cursor: "pointer",
       fontFamily: "'Montserrat', sans-serif",
       backgroundColor: "white",
-      border: "none"
+      border: "none",
+      color: "black"
     },
     buttonClose: {
       fontSize: 23,

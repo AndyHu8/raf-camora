@@ -18,7 +18,7 @@ export default function Home() {
   
   const classes = {
     home: {
-        height: "900px",
+        height: "100vh",
           width: "100%",
           background: `url(${raf_home})`,
           backgroundRepeat: "no-repeat",
@@ -29,17 +29,15 @@ export default function Home() {
     wrapper: {
       textTransform: "uppercase",
       width: "50%",
-      fontSize: 30,
-      top: "120%",
-      left: "30%",
-      transform: "translate(30%,120%)",
+      marginLeft: "10%",
+      marginTop: "15%"
     },
     headline: {
         fontFamily: "'Montserrat', sans-serif",
     },
     headlinePara: {
         margin: 0,
-        fontSize: 50
+        fontSize: 40
     },
     infotext: {
       fontFamily: "'Montserrat', sans-serif",
