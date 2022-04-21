@@ -12,7 +12,7 @@ export default function Footer() {
           height: "100%",
           width: "100%",
           backgroundColor: "#141414",
-          fontSize: 15,
+          fontSize: "1vw",
           fontFamily: "'Montserrat', sans-serif",
           color: "white",
           padding: 20,

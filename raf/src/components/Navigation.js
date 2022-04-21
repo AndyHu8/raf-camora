@@ -18,8 +18,8 @@ export default function Navigation() {
         <Sidebar/>
         <div style={classes.raf}>RAF CAMORA RR</div>
         <div style={classes.IconsRight}>
-          <div onClick={OpenWiki}><LanguageIcon sx={{ fontSize: 35 }}/></div>
-          <div onClick={OpenCorbo}><ShoppingCartIcon sx={{ fontSize: 35 }}/></div>
+          <div onClick={OpenWiki}><LanguageIcon sx={{ fontSize: "2vw" }}/></div>
+          <div onClick={OpenCorbo}><ShoppingCartIcon sx={{ fontSize: "2vw" }}/></div>
         </div>
       </div>
       </>
@@ -28,13 +28,13 @@ export default function Navigation() {
   
   const classes = {
       container: {
-          height: 80,
+          height: "5vw",
           backgroundColor: "white",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          paddingLeft: 15,
-          paddingRight: 15,
+          paddingLeft: "1%",
+          paddingRight: "1%",
           top: 0,
           left: 0,
           right: 0,
@@ -43,7 +43,7 @@ export default function Navigation() {
           zIndex: 101,
       },
       raf: {
-        fontSize: 50,
+        fontSize: "2.5vw",
         fontFamily: "'Merriweather', serif",
       },
       IconsRight: {

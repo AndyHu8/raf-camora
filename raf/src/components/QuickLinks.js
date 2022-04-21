@@ -28,16 +28,16 @@ export default function QuickLinks() {
   
   const classes = {
     containerOuter: {
-        padding: 25,
+        padding: "2%",
         backgroundColor: "black",
         overflowX: "hidden"
     },
     container: {
-          height: "250px",
+          height: "30%",
           display: "flex",
           width: "100%",
           backgroundColor: "black",
-          fontSize: 25,
+          fontSize: "2vw",
           fontFamily: "'Montserrat', sans-serif",
           lineHeight: "35px",
           color: "white",
@@ -46,8 +46,9 @@ export default function QuickLinks() {
     listElement: {
         listStyle: "none",
         textDecoration: "none",
-        fontSize: 20,
-        cursor: "pointer"
+        fontSize: "2vw",
+        cursor: "pointer",
+        paddingTop: "5%"
     },
     socialUl: {
         display: "flex"
@@ -55,8 +56,8 @@ export default function QuickLinks() {
     socialElement: {
         listStyle: "none",
         textDecoration: "none",
-        fontSize: 20,
-        paddingRight: 10,
+        fontSize: "2vw",
+        paddingRight: "10px",
         cursor: "pointer"
     },
     UlHeadline: {

@@ -24,30 +24,35 @@ export default function Biografie() {
           width: "100%",
           display: "flex",
           backgroundColor: "#f2f2f2",
-          overflowX: "hidden"
+          overflowX: "hidden",
+          flexWrap: "wrap"
     },
     imgContainer: {
+        height: "auto",
         width: "50%",
-        paddingTop: 100,
-        paddingBottom: 100,
-        paddingLeft: 250,
-        paddingRight: 100,
+        paddingTop: "8%",
+        paddingBottom: "8%",
+        paddingLeft: "10%",
+        paddingRight: "2%",
+        justifyContent: "center"
     },
     img: {
-        backgroundColor: "blue",
         height: "100%",
-        width: "auto",
+        width: "100%",
         background: `url(${bioraf})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        borderRadius: "5%"
     },
     sideText: {
-        paddingTop: 200,
-        paddingBottom: 200,
-        paddingLeft: 100,
-        paddingRight: 250,
+        height: "auto",
         width: "50%",
-        fontSize: 25,
+        paddingTop: "15%",
+        paddingBottom: "15%",
+        paddingLeft: "2%",
+        paddingRight: "10%",
+        fontSize: "1.5vw",
         fontFamily: "'Montserrat', sans-serif",
         textAlign: "center",
         color: "#A0AEC0"
@@ -60,17 +65,17 @@ export default function Biografie() {
         color: "black",
         textDecoration: "underline",
         cursor: "pointer",
-        fontSize: 22,
-        paddingTop: 50
+        fontSize: "1.5vw",
+        paddingTop: "10%"
     },
     downText: {
         display: "block",
         margin: "auto",
         justifyContent: "center",
-        paddingTop: 200,
-        paddingBottom: 200,
+        paddingTop: "10%",
+        paddingBottom: "10%",
         width: "70%",
-        fontSize: 30,
+        fontSize: "1.5vw",
         fontFamily: "'Montserrat', sans-serif",
         textAlign: "center",
     }

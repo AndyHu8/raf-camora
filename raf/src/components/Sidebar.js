@@ -11,10 +11,10 @@ export default function Sidebar() {
       <>
       <BrowserRouter>
       {!isOpen ?
-          (<button style={classes.buttonOpen} onClick={() => setIsOpen(!isOpen)}><MenuIcon sx={{ fontSize: 35 }}/>MENÜ</button>) :
+          (<button style={classes.buttonOpen} onClick={() => setIsOpen(!isOpen)}><MenuIcon sx={{ fontSize: "2vw" }}/>MENÜ</button>) :
           (
           <>
-          <button style={classes.buttonOpen} onClick={() => setIsOpen(!isOpen)}><MenuIcon sx={{ fontSize: 35 }}/>MENÜ</button>
+          <button style={classes.buttonOpen} onClick={() => setIsOpen(!isOpen)}><MenuIcon sx={{ fontSize: "2vw" }}/>MENÜ</button>
           <div style={classes.sidebar}>
             <button style={classes.buttonClose} onClick={() => setIsOpen(!isOpen)}><CloseIcon sx={{ fontSize: 35 }}/></button>
               <p style={classes.para}><HashLink style={classes.anchorTag} to="#home" smooth>HOME</HashLink></p>
@@ -41,14 +41,13 @@ export default function Sidebar() {
           padding: "10px 20px",
           backgroundColor: "black",
           overflowY: "auto",
-          //transition: "transform 2s",
           transform: "translateX(250px)",
           color: "white",
           fontFamily: "'Montserrat', sans-serif",
 
     },
     buttonOpen: {
-      fontSize: 23,
+      fontSize: "2vw",
       alignItems: "center",
       display: "flex",
       cursor: "pointer",

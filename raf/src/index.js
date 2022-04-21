@@ -12,7 +12,6 @@ import Footer from './components/Footer';
 ReactDOM.render(
   <React.StrictMode>
     <Navigation/>
-    <CreditsBalken/>
     <Home/>
     <Biografie/>
     <KachelFlexbox/>
