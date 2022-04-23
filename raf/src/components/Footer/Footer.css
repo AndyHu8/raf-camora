@@ -1,0 +1,23 @@
+.Footer {
+    height: 100%;
+    width: 100%;
+    background-color: #141414;
+    font-size: calc(0.2rem + 1vw);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 1.5%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1060px) {
+    .Footer {
+        font-size: calc(0.5rem + 1vw);
+        padding: 2%;
+    }
+}
+@media (max-width: 600px) {
+    .Footer {
+        font-size: calc(0.5rem + 1vw);
+        padding: 5%;
+    }
+}

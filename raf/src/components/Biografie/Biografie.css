@@ -1,0 +1,78 @@
+.biografie {
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.imgContainer {
+    height: auto;
+    width: 50%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    padding-right: 2%;
+    justify-content: center;
+}
+
+.imgBio {
+    height: 100%;
+    width: 100%;
+    background: url("../bilderCode/bioraf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+
+.sideText {
+    height: auto;
+    width: 50%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 2%;
+    padding-right: 10%;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #A0AEC0;
+}
+
+.headline {
+    font-weight: bold;
+    color: black;
+}
+
+.mehrErfahren {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.5vw;
+    padding-top: 10%;
+}
+
+.downText {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 70%;
+    font-size: calc(1rem + 1vw);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 1060px) {
+    .downText {
+        font-size: calc(0.8rem + 1vw);
+    }
+}
+@media (max-width: 600px) {
+    .downText {
+        font-size: calc(0.5rem + 1vw);
+    }
+}

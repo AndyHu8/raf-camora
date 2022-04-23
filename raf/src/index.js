@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import Home from './components/Home/Home';
 import KachelFlexbox from './components/KachelFlexbox';
 import Navigation from './components/Navigation/Navigation';
-import Biografie from './components/Biografie';
+import Biografie from './components/Biografie/Biografie';
 import QuickLinks from './components/QuickLinks';
 import "./index.css"
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>

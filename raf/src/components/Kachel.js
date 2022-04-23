@@ -1,8 +1,8 @@
 export default function Kachel(props) {
   const classes = {
     container: {
-          height: "250px",
-          minWidth: "250px",
+          height: "200px",
+          minWidth: "200px",
           fontFamily: "ontserrat, sans-serif",
           borderRadius: 10,
           backgroundColor: "#f2f2f2",
@@ -19,7 +19,6 @@ export default function Kachel(props) {
       backgroundPosition: "center",
       cursor: "pointer",
       borderRadius: 10,
-      "&:hover": {},
     },
   }
   

@@ -39,8 +39,11 @@
         font-size: calc(1rem + 1vw);
     }
     .infotext {
-        font-size: calc(0.3rem + 1vw);
-      }
+        font-size: calc(0.5rem + 1vw);
+    }
+    .wrapper {
+        top: 30vw;
+    }
 }
 
 @media (max-width: 600px) {
@@ -48,9 +51,9 @@
         font-size: calc(0.5rem + 1vw);
     }
     .infotext {
-        font-size: calc(0.2rem + 1vw);
-      }
-      .wrapper {
+        font-size: calc(0.3rem + 1vw);
+    }
+    .wrapper {
         top: 35vw;
-      }
+    }
 } 
