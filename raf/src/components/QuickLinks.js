@@ -9,9 +9,7 @@ export default function QuickLinks() {
         <div>
             <p style={classes.UlHeadline}>QUICK LINKS</p>
             <ul>
-                <li style={classes.listElement}>Impressum</li>
-                <li style={classes.listElement}>Support</li>
-                <li style={classes.listElement} onClick={() => {window.open("https://hulongofficial.de/", "_blank")}}>Creator</li>
+                <li style={classes.listElement} onClick={() => {window.open("https://hulongofficial.de/", "_blank")}}>Creator of this Website</li>
             </ul>
         </div>
         <div>
