@@ -1,0 +1,56 @@
+.home {
+    position: relative;
+    height: 60vw;
+    width: "100%";
+    background: url(../bilderCode/raf_home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    z-index: 0
+  }
+
+.wrapper {
+    position: absolute;
+    text-transform: uppercase;
+    height: 50%;
+    width: 50%;
+    top: 40vw;
+    left: 35%;
+    transform: translate(-50%,-50%);
+  }
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headlinePara {
+    font-size: calc(2rem + 1vw);
+}
+
+.infotext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(0.5rem + 1vw);
+    color: #474747;
+  }
+
+@media (max-width: 1060px) {
+    .headlinePara {
+        font-size: calc(1rem + 1vw);
+    }
+    .infotext {
+        font-size: calc(0.3rem + 1vw);
+      }
+}
+
+@media (max-width: 600px) {
+    .headlinePara {
+        font-size: calc(0.5rem + 1vw);
+    }
+    .infotext {
+        font-size: calc(0.2rem + 1vw);
+      }
+      .wrapper {
+        top: 35vw;
+      }
+} 
