@@ -4,7 +4,7 @@ import Home from './components/Home/Home';
 import KachelFlexbox from './components/KachelFlexbox/KachelFlexbox';
 import Navigation from './components/Navigation/Navigation';
 import Biografie from './components/Biografie/Biografie';
-import QuickLinks from './components/QuickLinks';
+import QuickLinks from './components/QuickLinks/QuickLinks';
 import "./index.css"
 import Footer from './components/Footer/Footer';
 
