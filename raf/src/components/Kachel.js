@@ -1,8 +1,8 @@
 export default function Kachel(props) {
   const classes = {
     container: {
-          height: "200px",
-          minWidth: "200px",
+          height: "250px",
+          minWidth: "250px",
           fontFamily: "ontserrat, sans-serif",
           borderRadius: 10,
           backgroundColor: "#f2f2f2",
