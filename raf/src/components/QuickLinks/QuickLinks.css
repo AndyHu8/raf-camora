@@ -12,22 +12,30 @@
       padding: 3%;
 }
 
+.divQuickLinks {
+    width: 50%;
+}
+
+.divSocial {
+    width: 50%;
+}
+
 .socialDiv {
     display: flex;
-    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .listElement {
     list-style: none;
     text-decoration: none;
     cursor: pointer;
-    padding-right: 30px;
+    padding-right: 1rem;
 }
 
 .socialElement {
     list-style: none;
     text-decoration: none;
-    padding-right: 10px;
     cursor: pointer;
 }
 
