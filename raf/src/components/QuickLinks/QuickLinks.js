@@ -8,7 +8,7 @@ export default function QuickLinks() {
     <div className='containerQuickLinks' id="quickLinks">
         <div className='divQuickLinks'>
             <p className='UIHeadline'>QUICK LINKS</p>
-            <ul>
+            <ul className='quickLinksDiv'>
                 <li className='listElement' onClick={() => {window.open("https://hulongofficial.de/", "_blank")}}>Entwickelt von Hulong RR</li>
             </ul>
         </div>
