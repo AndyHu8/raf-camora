@@ -1,0 +1,47 @@
+.containerQuickLinks {
+      height: 30%;
+      display: flex;
+      width: 100%;
+      background-color: black;
+      font-size: calc(1rem + 1vw);
+      font-family: 'Montserrat', sans-serif;
+      line-height: 35px;
+      color: white;
+      justify-content: space-between;
+      text-align: center;
+      padding: 3%;
+}
+
+.socialDiv {
+    display: flex;
+    padding-right: 30px;
+}
+
+.listElement {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.socialElement {
+    list-style: none;
+    text-decoration: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.UlHeadline {
+    text-align: center;
+}
+
+@media (max-width: 1060px) {
+    .containerQuickLinks {
+        font-size: calc(1rem + 1vw);
+    }
+}
+@media (max-width: 600px) {
+    .containerQuickLinks {
+        font-size: calc(1rem + 1vw);
+    }
+}
